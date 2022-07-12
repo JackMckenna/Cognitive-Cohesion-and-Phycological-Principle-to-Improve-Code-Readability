@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Testing
+Bundle-SymbolicName: testing;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.jdt.core,
+ org.junit,
+ org.junit.jupiter.api,
+ org.junit.jupiter.params
+Automatic-Module-Name: testing
+Bundle-RequiredExecutionEnvironment: JavaSE-14
